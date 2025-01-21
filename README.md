@@ -1,7 +1,9 @@
 # QR Ticket System
 
 ## Overview
-The QR Ticket System is a lightweight PHP application designed to generate event tickets with embedded QR codes. The QR codes encode key details such as user information, event name, date, and payment verification data. 
+The QR Ticket System is a lightweight PHP application designed to generate event tickets with embedded QR codes. 
+
+The QR codes encode key details such as user information, event name, date, and payment verification data. 
 
 Tickets are generated in PDF format and are available for download, ensuring a professional and secure delivery method.
 
@@ -45,7 +47,7 @@ qr_ticket_system/
 ## Installation
 1. Clone the repository:
    ```bash
-   https://github.com/your-username/qr-ticket-system.git
+   https://github.com/Markide1/qr-ticket-system.git
    cd qr_ticket_system
    ```
 2. Install dependencies:
@@ -53,7 +55,7 @@ qr_ticket_system/
    composer install
    ```
 3. Set up the database:
-   - Import the `test_db.sql` file located in the `database/` directory.
+   - Import the `test_db.sql` file in the `database/` directory.
    - Update database credentials in `src/Config/Database.php`.
 
 4. Start the application:
@@ -64,10 +66,10 @@ qr_ticket_system/
 
 ## Usage
 1. Access the application via your browser:
-   ```
+```bash
 http://localhost:8000
    ```
-2. Generate a ticket by providing required event and user details.
+2. Generate a ticket by providing the required event and user details.
 3. Download the generated ticket in PDF format.
 4. Verify the ticket by scanning the QR code.
 
