@@ -1,0 +1,11 @@
+# Ignore vendor directory and specific files 
+/vendor/ 
+/vendor/bacon/ 
+/vendor/composer/
+/vendor/dasprid/ 
+/vendor/endroid/ 
+/vendor/tecnickcom/ 
+!/vendor/autoload.php 
+ 
+# Composer files
+/composer.lock
